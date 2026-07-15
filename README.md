@@ -97,11 +97,11 @@ This method employs a set of simple human-made rules ("heuristics") to identify 
   - *Or* the post contains a noun or proper noun from a [list of scientific publication types](/src/lists/publications_kws.txt) (10 terms, manually curated, output column `mentions_publications` contains the first noun found, if any).
   - *Or* the post contains a term from a [list of social science research methods](/src/lists/sc_methods.txt) (1476 methods, see [List of Social Science Research Methods](#list-of-social-science-research-methods)) with at least two words (output column `mentions_research_method` contains the first term found, if any).
 
-### List of Social Science Research Methods
+## List of Social Science Research Methods
 
 The [list of 1,476 research methods](src/lists/sc_methods.txt) is collected from the [SAGE Social Science Thesaurus](https://concepts.sagepub.com/vocabularies/social-science/en/page/?uri=https%3A%2F%2Fconcepts.sagepub.com%2Fsocial-science%2Fconcept%2Fconceptgroup%2Fmethods).
 
-### List of Repositories
+## List of Repositories
 
 The [list of 17,463 subdomains](src/lists/repo_subdomains.txt) is collected as follows:
 
